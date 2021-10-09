@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/txt_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#FF7B54"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#94C0D8"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ai"
+            android:textSize="15dp"
+            android:text="Drink your glass of water slowly with some small sips"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/bubel"
+            android:text="Hold the water in yout mouth for a while before swallowing"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/sit"
+            android:text="Drinking water in a sitting posture is better than in standing or running position"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/ic_baseline_ac_unit_24"
+            android:text="Do not drink cold water or water with ice too often"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/mam"
+            android:text="Do not drink water immediately after eating"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/slip"
+            android:text="Do not drink too much water before sleep"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/wc"
+            android:text="Always drink water before urinating"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="30dp"
+        android:background="#94C0D8"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btn_custom_alert_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#FF7B54"
+            android:text="Close"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+</LinearLayout>
